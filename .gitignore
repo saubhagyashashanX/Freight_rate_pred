@@ -25,6 +25,9 @@ Thumbs.db
 # Python cache
 .pytest_cache/
 
+catboost_info/
+*.tfevents 
+
 # Generated scorer output
 scorer_results/
 
