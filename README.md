@@ -50,13 +50,13 @@ pip install -r requirements.txt
    open jupyter notebook
    open the file notebooks/01_eda.ipynb
 ```
-###6. generate the predictions
+### 6. generate the predictions
 ```bash
      files generated should be
      result/validation_predicition.csv
      result/december_prediction.csv
 ```
-###7. validate the predictions
+### 7. validate the predictions
 ```bash
   run
   python score.py --predictions result/validation_predictions.csv --december-predictions result/december_predictions.csv --output-dir scorer_results
