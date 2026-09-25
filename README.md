@@ -31,25 +31,32 @@ Scorer: passed all structural checks.
 ```bash
 git clone <your-github-repository-url>
 cd Freight_rate_prediction
-
+````
 ### 2. create a virtual environment
+```bash
 python -m venv venv
 
+````
 ### 3. Activate the Environment
+```bash
 venv\Scripts\activate
-
+```
 ### 4. install dependencies
+```bash
 pip install -r requirements.txt
-
+```
 ### 5. Run the notebook
+```bash
    open jupyter notebook
    open the file notebooks/01_eda.ipynb
-
+```
 ###6. generate the predictions
+```bash
      files generated should be
      result/validation_predicition.csv
      result/december_prediction.csv
-
+```
 ###7. validate the predictions
+```bash
   run
   python score.py --predictions result/validation_predictions.csv --december-predictions result/december_predictions.csv --output-dir scorer_results
